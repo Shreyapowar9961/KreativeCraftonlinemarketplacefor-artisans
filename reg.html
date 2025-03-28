@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Cart - Handmade Art Marketplace</title>
+    <link rel="stylesheet" href="reg.css">
+    <style>
+        /* Dropdown Menu Styling */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 200px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="nav-left">
+                <img src="c:\Users\ARJUN\Desktop\projectsem4\frontend\logokreativecraft-removebg-preview.png" alt="Creative Cart Logo" class="logo-img">
+                <span class="logo-text"><b>KreativeCraft</b></span>
+            </div>
+            <ul class="nav-links">
+                
+                <!-- Categories Dropdown Button -->
+                <li class="dropdown">
+                    <a href="#" class="btn category-btn">Categories</a>
+                    <div class="dropdown-content">
+                        <a href="#">Traditional Footwear</a>
+                        <a href="#">Handwoven Textiles & Clothing</a>
+                        <a href="#">Wooden Handicrafts</a>
+                        <a href="#">Pottery & Ceramics</a>
+                        <a href="#">Jewelry & Accessories</a>
+                        <a href="#">Tribal & Folk Art</a>
+                        <a href="#">Home Decor & Festival Items</a>
+                        <a href="#">Organic & Eco-friendly Crafts</a>
+                    </div>
+                </li>
+                <li><a href="c:\Users\ARJUN\Desktop\projectsem4\frontend/aboutus.html" class="btn aboutus-btn">About</a></li>
+                <li><a href="c:\Users\ARJUN\Desktop\projectsem4\frontend/artisanslogin.html" class="btn sell-btn">Sell Your Art</a></li>
+                <li><a href="c:\Users\ARJUN\Desktop\projectsem4\frontend\custlogin.html" class="btn login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Unique Handmade Creations</h1>
+            <p>Support talented artisans by shopping for authentic, handcrafted products.</p>
+            <a href="c:\Users\ARJUN\Desktop\projectsem4\frontend\shop.html" class="btn explore-btn">Explore Marketplace</a>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="c:\Users\ARJUN\Desktop\projectsem4\frontend\kolhauri.jpeg" alt="Kolhapuri Chappal">
+                <h3>Kolhapuri Chappal</h3>
+                <p><b>Kolhapuri Chappals Tradition at Your Feet!</b>  
+                    Handcrafted, durable, and stylish—these iconic leather sandals from Kolhapur blend heritage with comfort. Shop authentic artisan-made Kolhapuris on <b>KreativeCraft!</b>
+                </p>
+            </div>
+            <div class="product">
+                <img src="c:\Users\ARJUN\Desktop\projectsem4\frontend/wooden boys.jpeg" alt="Wooden Toys">
+                <h3>Wooden Toys</h3>
+                <p><b>Sawantwadi Wooden Toys Art in Every Carve!</b>
+                    Handcrafted with precision, these eco-friendly wooden toys from Sawantwadi showcase rich tradition and fine craftsmanship. Bring home a piece of heritage from <b>KreativeCraft!</b>
+                </p>
+            </div>
+            <div class="product">
+                <img src="c:\Users\ARJUN\Desktop\projectsem4\frontend/redclaypottery.jpeg" alt="Red Clay Pots">
+                <h3>Red Clay Pots</h3>
+                <p><b>Red Clay Pots  Earthy Elegance, Handcrafted!</b>
+                    Crafted from natural clay, these eco-friendly pots bring a rustic charm to your space while keeping traditions alive. Shop authentic handmade pottery on <b>KreativeCraft!</b>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 KreativeCraft | Connecting Artisans to the World</p>
+        <div class="social-icons">
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="reg.js"></script>
+</body>
+</html>
